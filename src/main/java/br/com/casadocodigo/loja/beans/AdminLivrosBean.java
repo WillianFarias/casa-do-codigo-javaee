@@ -10,6 +10,7 @@ import br.com.casadocodigo.loja.models.Livro;
 public class AdminLivrosBean {
 	
 	private Livro livro = new Livro();
+	private String nome;
 	
 	public void salvar() {
 		System.out.println("Livro cadastrado: " + livro);
